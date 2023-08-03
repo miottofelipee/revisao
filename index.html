@@ -6,6 +6,7 @@
     <title>IMC</title>
     <link rel="stylesheet" href="../revisao/assets/css/style.index.css">
     <script src="../revisao/assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -15,22 +16,28 @@
         </section>
 
         <section id="form">
+
             <div id="calc">
                 <h1 id="title">Calculadora - IMC</h1>
                 <div class="input-box">
                     <label for="Pseo em kg">Pseo em kg</label>
                     <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging icon"></i>
                         <input id="weight" type="number" neme="weight" required>
+                        <span calss="unit">kg</span>
                     </div>
                 </div>
 
                 <div class="input-box">
                     <label for="Altura em metros">Altura em metros</label>
                     <div class="input-field">
+                        <i class="fa-solid fa-ruler icon"></i>
                         <input id="height" type="number" neme="height" required>
+                        <span calss="unit">m</span>
                     </div>
                 </div>
             </div>
+
         </section>
     </main>
 </body>
