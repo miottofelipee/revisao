@@ -16,6 +16,7 @@ main{
     align-items: center;
     width: 100%;
     height: 100vh;
+    gap: 3rem;
 }
 
 img{
@@ -28,7 +29,8 @@ img{
     padding: 2rem;
     color: #f8fafc;
     background-color: #262626;
-    border-radius: 8px;
+    border-radius: 0.8rem;
+    gap: 2rem;
 }
 
 .input-box label {
@@ -56,7 +58,7 @@ img{
     padding: 0.5rem;
 }
 
-.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button,
 .input-field input::-webkit-inner-spin-button{
     appearance: none;
 }
@@ -65,4 +67,27 @@ img{
     color: #cbd5e1;
     font-size: 1.3rem;
     padding: 0.6rem 1rem;
+}
+
+#calculate{
+    background-color: #fd1b1b;
+    border: none;
+    color: #f8fafc;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+#calc{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
 }
